@@ -1,1 +1,29 @@
 File created in master
+
+To remove a branch locally if it is already merged:
+
+$ git branch -d *insert name of branch here*
+
+To force remove a branch locally even if it is not merged:
+
+$ git branch -D *insert name of branch here*
+
+To remove a remote branch:
+
+-> Click on View all branches
+-> Click on the trash icon to delete 
+
+To list tags:
+
+$ git tag
+
+To delete a tag locally:
+
+$ git tag -d *insert name of tag here*
+
+To delete a tag on the remote repo:
+
+-> Click on tags
+-> Click on ...
+-> Click on delete tag
+
